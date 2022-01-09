@@ -51,6 +51,23 @@ public class _1_ScreenShot {
 
 	}
 	@Test
+	public void printScreenShot2()
+	{
+		WebElement search=driver.findElement(By.name("q"));
+		search.sendKeys("selenium");
+
+		WebElement btn=driver.findElement(By.name("btnK"));
+		btn.click();
+
+		wait.until(ExpectedConditions.titleContains("git"));
+
+		screenShotCapture(driver,"gitResult");
+
+
+
+	}
+
+	@Test
 	public void printScreenShot1()
 	{
 		WebElement search=driver.findElement(By.name("q"));
