@@ -1,4 +1,4 @@
-package Webdriver._28_ScreenshotAndJavascript;
+package Webdriver.ScreenshotAndJavascript;
 
 import java.io.File;
 import java.io.IOException;
